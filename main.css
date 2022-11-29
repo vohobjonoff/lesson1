@@ -1,0 +1,17 @@
+:root{
+    --defaultBtnColor: #0E8784;
+    --hoverBtnColor: #66D2CF;
+    --disabledBtnColor: #E2DEDB; 
+}
+button{
+    width: 200px;
+    height: 30px;
+    background-color: var(--defaultBtnColor);
+    border: none;
+}
+
+button:hover{
+    background-color: var(--hoverBtnColor);
+}
+
+
